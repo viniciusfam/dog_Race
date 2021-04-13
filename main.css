@@ -1,0 +1,30 @@
+.kanit{
+    font-family: 'Kanit', sans-serif;
+
+}
+.serif{
+    font-family: 'Noto Serif JP', serif;
+
+}
+.oxygen{
+    font-family: 'Oxygen', sans-serif;
+
+}
+.sans{
+    font-family: 'PT Sans', sans-serif;
+
+}
+.roboto{
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(https://playragnarokonlinebr.com/img/banner-header_doram.jpg);
+}
+
+label{
+    font-size: 22px !important
+}
+

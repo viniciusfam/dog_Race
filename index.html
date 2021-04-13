@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com/ " >
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Serif+JP&family=Oxygen&family=PT+Sans&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+
+  <title>Document</title>
+</head>
+
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center" >
+      <form class="col-lg-6 col-md-6 col-sm-12 justify-content-center">
+        <div>
+          <label for="txts">Escolha uma raça</label>
+          <select name="txts" id="txts" class="form-control" size="10">
+          </select>
+        </div>
+        <div>
+          <label for="txtnome">nome do cachorro</label>
+          <input type="text" name="txtnome" oninput="changeName()" class="form-control" id="txtnome">
+        </div>
+  
+        <div>
+          <label for="txtfonte">escolha a fonte</label>
+          <select name="txtfonte" id="txtfonte" class="form-control" size="5">
+          </select>
+        </div>
+  
+        <div>
+          <label for="txtcor">escolha a cor</label>
+          <input type="color" name="txtcor" class="form-control" id="txtcor" onchange="selectColor()">
+          <input type="button" value="salvar" onclick="save()">
+
+        </div>
+      </form>
+      <div id="fim" class="col-lg-6 col-md-6 col-sm-12 justify-content-center" >
+        <label class = "d-flex justify-content-center p-2" for="img" id="nomecachorro"></label>
+        <img class="w-100 d-flex justify-content-center p-2 align-items-center"  id="img">
+      </div>
+    </div>
+
+ 
+ 
+</body>
+
+<script src="index.js"></script>
+
+</html>
